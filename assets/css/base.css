@@ -13,7 +13,6 @@
     --mainColor: #545BE8;
 }
 body{
-    height: 4000px;
     font-family: var(--mainFont), serif;
 }
 .container{
