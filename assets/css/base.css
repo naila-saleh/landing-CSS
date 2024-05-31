@@ -11,6 +11,8 @@
     --subFont:"Inter", sans-serif;
     --secondSubFont:"Roboto", sans-serif;
     --mainColor: #545BE8;
+    --subColor: #F0C932;
+    --secondSubColor: #fff;
 }
 body{
     font-family: var(--mainFont), serif;
@@ -23,8 +25,8 @@ body{
     background-color: #fff;
 }
 .row{
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
