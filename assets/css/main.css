@@ -153,10 +153,9 @@
     flex-direction: column;
     gap: 15px;
     padding: 35px 15px;
-    margin-block: 50px;
 }
 .services .sub-service{
-    flex-basis: 400px;
+    flex-basis: 350px;
     flex-grow: 2;
 }
 .services .sub-service span{
@@ -170,8 +169,16 @@
     font-size: 15px;
     color: #969696;
 }
+.services .second-sub-service{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 35px 15px;
+    flex-basis: 700px;
+    flex-grow: 1;
+}
 .services .service{
-    flex-basis: 280px;
+    flex-basis: 210px;
     background-color: var(--mainColor);
     color: var(--secondSubColor);
     border-radius: 8px;
@@ -229,11 +236,11 @@
 }
 @media (max-width: 1050px) {
     .services .row{
-        gap: 10px;
+        gap: 5px;
     }
     .services .sub-service, .services .service{
-        padding: 25px 15px;
-        margin-block: 20px;
+        padding: 15px 10px;
+        margin-block: 5px;
     }
 }
 /* end services */
